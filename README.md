@@ -12,15 +12,6 @@ Használd a System.time-függvényt ahhoz, hogy lemérd, mennyi idő alatt szám
 mikor "a=150000", "(d_1, d_2, d_3, d_4, d_5, d_6) = (3000, 1000, 150, 15, 3, 1)". 
 b). Ez alapján hányféleképpen tudunk felváltani 1000 forintot?
 
-3.hf.:
-Luke Skywalker X-wing gépével a Halálcsillag szellőzőnyílásába akar beletalálni. Nem tud pontosan célozni, de a síkot ismeri, amire merőlegesen kell lövéseket leadnia, és minden lövése megfelelő szögben csapódik be. A lövések viszont véletlenszerűen oszlanak el a szellőző körül, az  x tengely vonalán a szellőző pontjának helyén vett várható értékkel, de 1,5 méter szórással vett normális eloszlás
-alapján, míg az y tengelyen egyenletes eloszlás alapján a szellőző 5 méter sugarú körében.
-a. Szimulálj 100 lövést Luke űrhajójával, és rajzold ki a lövések pontjait egy plot paranccsal!
-Ábrázold a szellőző helyét is egy másik színnel! (Points parancs, pl.)
-b. Próbáljuk meg szimulációval megbecsülni, hogy mekkora valószínűséggel talál be Luke legalább egyszer a szellőző 10 cm-es környezetébe (ekkor már elpusztul a Halálcsillag), ha 100 lövést ad le. És ha 100000-et?
-   c. Készíts egy algoritmust, ami azt az optimális (értsd, minél kevesebb) számú lövést keresi,
-amivel Luke már legalább 50% biztonsággal eltalálja ezt a környzetet 1szer. Használj szimulációkat, rendezd egy listába a szimulált lövéssorozatokat, listaelemenként értékeld ki, hogy hányszor talált be a körbe!
-
 3. feladat: 
 Legyenek x és y független normális eloszlású változók, várhatóértékük legyen 2 és 5, szórásuk 4 és 2.
 Legyen z =  3x + 2y +epsilon, ahol epsilon sztenderd normális. 
