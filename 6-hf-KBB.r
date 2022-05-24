@@ -20,7 +20,7 @@ plot(vol)
 acf(vol) 
 pacf(vol)
 
- #Vincze nem szerette az auto.arimat :D
+# auto.arima helyett :
 #acf alapján ránézésre van benne MA tag és a stac. vizsgálat alapján
 #az ARIMA() modellben a d értéke 0.
 #,include.mean=T nélkül
